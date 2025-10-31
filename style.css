@@ -25,13 +25,6 @@
 }
 
 body {
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-
   /*background: color image repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover;
 }
@@ -167,9 +160,25 @@ ul li a:hover {
   padding: 16px;
 }
 
+footer,
+footer p,
+footer a,
+footer span,
+footer strong {
+  font-weight: 400;
+}
+
 footer {
   padding: 24px 0;
   text-align: center;
+  opacity: 1;
 
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.gradient {
+  font-weight: 900;
+  background: linear-gradient(90deg, #00bfff, #8a2be2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
